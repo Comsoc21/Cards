@@ -4,14 +4,14 @@ body{
 
 .card {
   display: grid;
-  grid-template-columns: 280px;
+  grid-template-columns: 290px;
   grid-template-rows: 150px 150px 80px;
   grid-template-areas: "image" "text" "stats";
   border-radius: 18px;
   background: black;
   font-family: 'roboto';
   text-align: center;
-  width: 280px;
+  width: 290px;
 }
 
 .card-image {
@@ -34,9 +34,9 @@ body{
 
 .card-text {
   grid-area: text;
-  margin: 25px;
   text-align: center;
   color: white;
+  margin: 2px;
 }
 .card-text .date {
   font-size:13px;
@@ -48,7 +48,7 @@ body{
 }
 .card-text h2 {
   margin-top:0px;
-  font-size:28px;
+  font-size:32px;
 }
 
 .card-stats {
